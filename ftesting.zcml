@@ -4,8 +4,8 @@
     i18n_domain="zope"
     >
 
-<include package=".container.browser.ftests" />
-<include package=".pagetemplate.ftests" />
-<include package=".form.browser.ftests" file="i18n.zcml" />
+<include package="zope.app.container.browser.ftests" />
+<include package="zope.app.pagetemplate.ftests" />
+<include package="zope.app.form.browser.ftests" file="i18n.zcml" />
 
 </configure>
