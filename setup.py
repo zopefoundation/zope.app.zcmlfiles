@@ -69,6 +69,7 @@ setup(
                       'zope.app.publisher',
                       'zope.app.security',
                       'zope.app.form',
+                      'zope.app.i18n',
                       'zope.app.locales',
                       'zope.app.zopeappgenerations',
                       'zope.app.principalannotation',
