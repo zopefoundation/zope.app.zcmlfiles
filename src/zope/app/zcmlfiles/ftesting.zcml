@@ -6,6 +6,6 @@
 
 <include package="zope.app.container.browser.ftests" />
 <include package="zope.app.pagetemplate.tests" />
-<include package="zope.app.form.browser.ftests" file="i18n.zcml" />
+<include package="zope.app.form.browser.tests" file="i18n.zcml" />
 
 </configure>
