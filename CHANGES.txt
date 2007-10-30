@@ -1,6 +1,12 @@
 Change History
 ==============
 
+3.4.2 (2007-10-30)
+------------------
+
+ - Fix test failure due to missing 'zope.app.form.browser.ftests' directory.
+   Now it is moved to 'zope.app.form.browser.tests'
+
 3.4.1 (2007-10-23)
 ------------------
 
