@@ -1,6 +1,12 @@
 Change History
 ==============
 
+unreleased
+----------
+
+ - Fix test failure due to missing 'zope.app.container.browser.ftests' directory.
+   Now it is moved to 'zope.app.container.browser.tests'
+
 3.4.2 (2007-10-30)
 ------------------
 

@@ -4,7 +4,7 @@
     i18n_domain="zope"
     >
 
-<include package="zope.app.container.browser.ftests" />
+<include package="zope.app.container.browser.tests" />
 <include package="zope.app.pagetemplate.tests" />
 <include package="zope.app.form.browser.tests" file="i18n.zcml" />
 
