@@ -1,24 +1,24 @@
 Change History
 ==============
 
-unreleased
-----------
+3.4.3 (2007-11-01)
+------------------
 
- - Fix test failure due to missing 'zope.app.container.browser.ftests' directory.
-   Now it is moved to 'zope.app.container.browser.tests'
+- Fix test failure due to missing ``zope.app.container.browser.ftests``
+   directory.  Now it is moved to ``zope.app.container.browser.tests``.
 
 3.4.2 (2007-10-30)
 ------------------
 
- - Fix test failure due to missing 'zope.app.form.browser.ftests' directory.
-   Now it is moved to 'zope.app.form.browser.tests'
+- Fix test failure due to missing ``zope.app.form.browser.ftests`` directory.
+  Now it is moved to ``zope.app.form.browser.tests``.
 
 3.4.1 (2007-10-23)
 ------------------
 
-Added missing dependency.
+- Added missing dependency.
 
 3.4.0 (2007-10-03)
 ------------------
 
-Initial public release as an individual package.
+- Initial public release as an individual package.

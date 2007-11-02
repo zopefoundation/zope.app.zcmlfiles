@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2006,2007 Zope Corporation and Contributors.
+# Copyright (c) 2006, 2007 Zope Corporation and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -34,7 +34,7 @@ long_description = (
 
 setup(
     name='zope.app.zcmlfiles',
-    version='3.4.3dev',
+    version='3.4.3',
     url='http://pypi.python.org/pypi/zope.app.zcmlfiles',
     author='Zope Corporation and Contributors',
     author_email='zope3-dev@zope.org',
