@@ -39,7 +39,6 @@
   <include package="zope.traversing" />
   <include package="zope.app.pagetemplate" />
   <include package="zope.app.generations" />
-  <include package="zope.app.zapi" />
 
   <!-- Views -->
   <include package="zope.app.http" />
