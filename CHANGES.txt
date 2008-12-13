@@ -1,6 +1,11 @@
 Change History
 ==============
 
+3.5.0 (unreleased)
+
+- Remove deprecated include of zope.app.component.browser meta.zcml.
+- Remove use of zope.modulealias.
+
 3.4.3 (2007-11-01)
 ------------------
 
