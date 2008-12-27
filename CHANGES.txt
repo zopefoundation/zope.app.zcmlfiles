@@ -2,8 +2,12 @@ Change History
 ==============
 
 3.5.1 (unreleased)
+------------------
 
-- ...
+- Add include of zope.app.schema's configure.zcml. Because component-based
+  vocabularies are used everywhere and we need to import zope.app.schema
+  somehow to make it work. This is needed because of removal of the include
+  of zope.app.schema's meta.zcml in the previous release.
 
 3.5.0 (2008-12-16)
 ------------------
