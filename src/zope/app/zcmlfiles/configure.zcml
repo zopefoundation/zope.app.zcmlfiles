@@ -11,6 +11,7 @@
        subscribers may break without fixups -->
 
   <include package="zope.app.component" />
+  <include package="zope.app.schema" />
 
   <include package="zope.app.generations" file="subscriber.zcml" />
 
