@@ -4,7 +4,8 @@ Change History
 3.5.2 (unreleased)
 ------------------
 
-- ...
+- We depended on zope.formlib but didn't include its configuration. Now
+  it's included in configure.zcml.
 
 3.5.1 (2008-12-28)
 ------------------
