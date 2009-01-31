@@ -1,7 +1,7 @@
 Change History
 ==============
 
-3.5.2 (unreleased)
+3.5.2 (2009-01-31)
 ------------------
 
 - We depended on zope.formlib but didn't include its configuration. Now
