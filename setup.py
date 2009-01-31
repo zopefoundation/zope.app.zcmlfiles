@@ -75,6 +75,7 @@ setup(
                       'zope.app.principalannotation',
                       'zope.app.basicskin',
                       'zope.app.rotterdam',
+                      'zope.app.folder',
                       'zope.app.wsgi',
                       'zope.formlib',
                       'zope.i18n',
