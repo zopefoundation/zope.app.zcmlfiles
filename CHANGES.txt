@@ -1,7 +1,7 @@
 Change History
 ==============
 
-3.5.3 (unreleased)
+3.5.3 (2009-02-04)
 ------------------
 
 - Added ``zope.app.broken`` dependency (we include its ZCML).
