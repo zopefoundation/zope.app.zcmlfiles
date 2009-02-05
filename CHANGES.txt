@@ -4,20 +4,20 @@ Change History
 3.5.3 (unreleased)
 ------------------
 
-- ...
+- Added ``zope.app.broken`` dependency (we include its ZCML).
 
 3.5.2 (2009-01-31)
 ------------------
 
-- We depended on zope.formlib but didn't include its configuration. Now
-  it's included in configure.zcml.
+- We depended on ``zope.formlib`` but didn't include its configuration. Now
+  it's included in ``configure.zcml``.
 
-- We include ZCML of zope.app.error but didn't mention it as a dependency.
+- We include ZCML of ``zope.app.error`` but didn't mention it as a dependency.
 
 3.5.1 (2008-12-28)
 ------------------
 
-- Add include of zope.app.schema's configure.zcml. Because component-based
+- Add include of ``zope.app.schema:configure.zcml``. Because component-based
   vocabularies are used everywhere and we need to import zope.app.schema
   somehow to make it work. This is needed because of removal of the include
   of zope.app.schema's meta.zcml in the previous release.
@@ -25,8 +25,8 @@ Change History
 3.5.0 (2008-12-16)
 ------------------
 
-- Remove deprecated include of zope.app.component.browser meta.zcml.
-- Remove deprecated include of zope.app.schema meta.zcml.
+- Remove deprecated include of ``zope.app.component.browser:meta.zcml``.
+- Remove deprecated include of ``zope.app.schema:meta.zcml``.
 - Remove use of zope.modulealias.
 
 3.4.3 (2007-11-01)
