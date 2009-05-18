@@ -1,7 +1,7 @@
 Change History
 ==============
 
-3.5.4 (unreleased)
+3.5.4 (2009-05-18)
 ------------------
 
 - Added missing ``zope.app.exception`` dependency, as we include its ZCML.
