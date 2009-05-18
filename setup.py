@@ -34,7 +34,7 @@ long_description = (
 
 setup(
     name='zope.app.zcmlfiles',
-    version = '3.5.4',
+    version = '3.5.5dev',
     url='http://pypi.python.org/pypi/zope.app.zcmlfiles',
     author='Zope Corporation and Contributors',
     author_email='zope-dev@zope.org',
