@@ -56,6 +56,9 @@ setup(
     package_dir={'': 'src'},
     namespace_packages=['zope', 'zope.app'],
     include_package_data=True,
+        extras_require = dict(
+        test=['zope.app.testing',
+              ]),
     install_requires=['setuptools',
                       'zope.component',
                       'zope.annotation',
@@ -83,6 +86,7 @@ setup(
                       'zope.app.pagetemplate',
                       'zope.app.schema',
                       'zope.app.container',
+                      'zope.app.exception',
                       ],
     zip_safe=False,
     )

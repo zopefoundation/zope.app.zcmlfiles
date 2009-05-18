@@ -1,6 +1,14 @@
 Change History
 ==============
 
+3.5.4 (unreleased)
+------------------
+
+- Added missing ``zope.app.exception`` dependency, as we include its ZCML.
+
+- Added missing ``zope.app.testing`` test dependency to make tests pass.
+
+
 3.5.3 (2009-02-04)
 ------------------
 
