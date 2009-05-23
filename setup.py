@@ -65,6 +65,7 @@ setup(
                       'zope.app.dependable',
                       'zope.app.content',
                       'zope.publisher',
+                      'zope.app.applicationcontrol',
                       'zope.app.broken',
                       'zope.app.component',
                       'zope.app.generations',
