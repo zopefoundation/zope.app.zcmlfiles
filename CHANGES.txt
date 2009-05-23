@@ -4,9 +4,8 @@ Change History
 3.5.5 (unreleased)
 ------------------
 
-- Added missing ``zope.app.http`` dependency.
-
-- Added missing ``zope.app.applicationcontrol`` dependency.
+- Added missing dependencies, including ``zope.app.http`` and
+  ``zope.app.applicationcontrol``.
 
 
 3.5.4 (2009-05-18)
