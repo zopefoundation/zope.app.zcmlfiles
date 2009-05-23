@@ -69,6 +69,7 @@ setup(
                       'zope.app.component',
                       'zope.app.generations',
                       'zope.app.error',
+                      'zope.app.http',
                       'zope.app.interface',
                       'zope.app.publisher',
                       'zope.app.security',
