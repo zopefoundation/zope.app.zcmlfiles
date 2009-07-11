@@ -4,7 +4,8 @@ Change History
 3.5.6 (unreleased)
 ------------------
 
-- ...
+- No longer depends on deprecated ``zope.app.interface`` but on
+  ``zope.componentvocabulary``.
 
 
 3.5.5 (2009-05-23)

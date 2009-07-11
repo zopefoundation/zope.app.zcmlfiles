@@ -16,7 +16,7 @@
   <include package="zope.app.generations" file="subscriber.zcml" />
 
   <!-- Ordinary Application (non-view) configuration) -->
-  <include package="zope.app.interface" />
+  <include package="zope.componentvocabulary" />
   <include package="zope.app.security" />
   <include package="zope.component" />
   <include package="zope.annotation" />
