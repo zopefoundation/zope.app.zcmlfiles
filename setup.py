@@ -23,7 +23,7 @@ $Id$
 
 import os
 
-from setuptools import setup, find_packages, Extension
+from setuptools import setup, find_packages
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
@@ -39,7 +39,7 @@ long_description = (
 
 setup(
     name='zope.app.zcmlfiles',
-    version = '3.6.1dev',
+    version = '3.6.1',
     url='http://pypi.python.org/pypi/zope.app.zcmlfiles',
     author='Zope Corporation and Contributors',
     author_email='zope-dev@zope.org',
