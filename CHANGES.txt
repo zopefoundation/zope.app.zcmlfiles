@@ -4,12 +4,16 @@ Change History
 3.6.2 (unreleased)
 ------------------
 
+- Use new ``zope.app.locales`` which has its own `configure.zcml`.
+
+- No longer using ``zope.testing.doctestunit`` as it is deprecated
+  now. Using python's ``doctest`` module.
 
 3.6.1 (2009-12-16)
 ------------------
 
 - Removed reference to no longer existing configure.zcml from
-  zope.app.pagetemplate.tests.
+  ``zope.app.pagetemplate.tests``.
 
 
 3.6.0 (2009-07-11)

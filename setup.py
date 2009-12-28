@@ -91,7 +91,7 @@ setup(
                       'zope.app.generations',
                       'zope.app.http',
                       'zope.app.i18n',
-                      'zope.app.locales',
+                      'zope.app.locales >= 3.6.0',
                       'zope.app.pagetemplate',
                       'zope.app.principalannotation',
                       'zope.app.publication',

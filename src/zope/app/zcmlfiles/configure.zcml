@@ -45,10 +45,7 @@
   <include package="zope.app.http" />
 
   <!-- Translations -->
-  <configure package="zope.app.locales">
-    <i18n:registerTranslations directory="." />
-  </configure>
-
+  <include package="zope.app.locales" />
   <include package="zope.app.i18n" />
 
   <!-- Database boostrapping and maintanance -->
