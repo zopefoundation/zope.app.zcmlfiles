@@ -1,7 +1,7 @@
 Change History
 ==============
 
-3.6.2 (unreleased)
+3.7.0 (2009-12-28)
 ------------------
 
 - Use new ``zope.app.locales`` which has its own `configure.zcml`.
