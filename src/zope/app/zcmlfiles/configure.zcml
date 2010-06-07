@@ -70,7 +70,6 @@
 
   <include package="zope.app.applicationcontrol" />
   <include package="zope.dublincore" />
-  <include package="zope.dublincore.browser" />
   <include package="zope.formlib" />
   <include package="zope.app.wsgi" />
 
