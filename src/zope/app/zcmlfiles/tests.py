@@ -17,6 +17,7 @@ def test_include():
     >>> xmlconfig.include(context, 'ftesting.zcml', zope.app.zcmlfiles)
     >>> xmlconfig.include(context, 'menus.zcml', zope.app.zcmlfiles)
     >>> xmlconfig.include(context, 'meta.zcml', zope.app.zcmlfiles)
+    >>> xmlconfig.include(context, 'browser.zcml', zope.app.zcmlfiles)
     >>> xmlconfig.include(context,
     ...     'file_not_exists.zcml', zope.app.zcmlfiles) #doctest: +ELLIPSIS
     Traceback (most recent call last):

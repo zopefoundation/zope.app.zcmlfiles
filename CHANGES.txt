@@ -4,7 +4,8 @@ Change History
 3.7.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Move include of ``zope.dublincore.browser`` here from ``zope.dublincore``
+  (LP: #590668).
 
 
 3.7.0 (2009-12-28)
