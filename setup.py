@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2006, 2007 Zope Corporation and Contributors.
+# Copyright (c) 2006, 2007 Zope Foundation and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -17,8 +17,6 @@
 # Zope Toolkit policies as described by this documentation.
 ##############################################################################
 """Setup for zope.app.zcmlfiles package
-
-$Id$
 """
 
 import os
