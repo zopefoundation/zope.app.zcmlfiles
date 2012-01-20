@@ -50,7 +50,6 @@
 
   <!-- Database boostrapping and maintanance -->
   <include package="zope.app.appsetup" />
-  <include package="zope.app.zopeappgenerations" />
 
   <!-- Services -->
   <include package="zope.app.principalannotation" />

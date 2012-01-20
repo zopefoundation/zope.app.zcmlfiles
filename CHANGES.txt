@@ -1,10 +1,12 @@
 Change History
 ==============
 
-3.7.2 (unreleased)
+3.8.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Remove include of ``zope.app.zopeappgenerations`` that is not useful unless
+  upgrading a database older than Zope 3.4.  This cuts the last dependency on
+  ``zope.app.authentication`` from the ZTK.
 
 
 3.7.1 (2011-07-26)
