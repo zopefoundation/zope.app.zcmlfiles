@@ -1,7 +1,7 @@
 Change History
 ==============
 
-3.8.0 (unreleased)
+3.8.0 (2013-08-27)
 ------------------
 
 - Remove include of ``zope.app.zopeappgenerations`` that is not useful unless
