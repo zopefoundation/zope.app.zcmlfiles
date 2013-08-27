@@ -1,0 +1,7 @@
+include *.txt
+include *.py
+include buildout.cfg
+
+recursive-include src *.zcml
+
+global-exclude *.pyc
