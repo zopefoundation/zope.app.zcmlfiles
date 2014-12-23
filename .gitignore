@@ -6,3 +6,13 @@ bin
 build
 develop-eggs
 parts
+bin/
+eggs/
+develop-eggs/
+parts/
+*.py[co]
+__pycache__/
+build/
+dist/
+*.egg-info/
+.tox/
