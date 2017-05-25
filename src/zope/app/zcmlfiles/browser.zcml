@@ -2,6 +2,14 @@
    xmlns="http://namespaces.zope.org/zope"
    xmlns:browser="http://namespaces.zope.org/browser">
 
+  <!--
+      The browser configuration depends on the following
+      packages or equivalent having been included:
+      - zope.app.rotterdam (Rotterdam skin)
+      - zope.security (zope.View permission)
+      - zope.dublincore (zope.dublincore.change permission)
+  -->
+
   <browser:defaultView name="index.html" />
   <browser:defaultSkin name="Rotterdam" />
 

@@ -1,10 +1,11 @@
 Change History
 ==============
 
-3.8.1 (unreleased)
+4.0.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add support for Python 3.4, 3.5, 3.6 and PyPy. Update minimum dependency
+  versions appropriately.
 
 
 3.8.0 (2013-08-27)
