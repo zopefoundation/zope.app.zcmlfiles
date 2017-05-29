@@ -1,31 +1,48 @@
-import doctest
 
-def test_include():
-    """
-    >>> from zope.configuration import xmlconfig, config
-    >>> context = config.ConfigurationMachine()
-    >>> xmlconfig.registerCommonDirectives(context)
-    >>> import zope.app.zcmlfiles
+import unittest
+import warnings
 
-    >>> import warnings
-    >>> showwarning = warnings.showwarning
-    >>> warnings.showwarning = lambda *a, **k: None
+from zope.configuration import xmlconfig
+from zope.component.testing import PlacelessSetup
 
-    >>> xmlconfig.include(context, package=zope.app.zcmlfiles)
+import zope.app.zcmlfiles
 
-    >>> xmlconfig.include(context, 'configure.zcml', zope.app.zcmlfiles)
-    >>> xmlconfig.include(context, 'ftesting.zcml', zope.app.zcmlfiles)
-    >>> xmlconfig.include(context, 'menus.zcml', zope.app.zcmlfiles)
-    >>> xmlconfig.include(context, 'meta.zcml', zope.app.zcmlfiles)
-    >>> xmlconfig.include(context, 'browser.zcml', zope.app.zcmlfiles)
-    >>> xmlconfig.include(context,
-    ...     'file_not_exists.zcml', zope.app.zcmlfiles) #doctest: +ELLIPSIS
-    Traceback (most recent call last):
-    ...
-    IOError: ...
 
-    >>> warnings.showwarning = showwarning
-    """
+class TestIncludes(PlacelessSetup,unittest.TestCase):
+
+    def _execute(self, filename='configure.zcml',
+                 package=zope.app.zcmlfiles, context=None):
+
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore')
+            return xmlconfig.file(filename, package, context=context)
+
+    def test_configure(self):
+        self._execute('configure.zcml')
+
+    def test_ftesting(self):
+        self._execute('ftesting.zcml')
+
+    def test_meta(self):
+        self._execute('meta.zcml')
+
+    def test_menus(self):
+        context = self._execute('meta.zcml')
+        self._execute('menus.zcml', context=context)
+
+    def test_browser(self):
+        context = self._execute('meta.zcml')
+        context = self._execute('menus.zcml', context=context)
+        from zope import security
+        context = self._execute(package=security,
+                                context=context)
+        from zope.app import rotterdam
+        context = self._execute(package=rotterdam,
+                                context=context)
+        from zope import dublincore
+        context = self._execute(package=dublincore,
+                                context=context)
+        self._execute('browser.zcml', context=context)
 
 def test_suite():
-    return doctest.DocTestSuite()
+    return unittest.defaultTestLoader.loadTestsFromName(__name__)
