@@ -1,7 +1,7 @@
 Change History
 ==============
 
-4.0.0 (unreleased)
+4.0.0 (2017-05-29)
 ------------------
 
 - Add support for Python 3.4, 3.5, 3.6 and PyPy. Update minimum dependency
