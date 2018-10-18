@@ -55,7 +55,7 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development',
-        'Framework :: Zope3',
+        'Framework :: Zope :: 3',
     ],
     description='Zope application server ZCML files',
     long_description=long_description,
