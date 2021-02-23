@@ -4,11 +4,9 @@ Change History
 4.1.0 (unreleased)
 ------------------
 
-- Add support for Python 3.7 and 3.8-dev.
+- Add support for Python 3.7, 3.8, and 3.9.
 
 - Drop support for Python 3.4.
-
-- Fix/add PyPy version for TravisCI.
 
 
 4.0.0 (2017-05-29)

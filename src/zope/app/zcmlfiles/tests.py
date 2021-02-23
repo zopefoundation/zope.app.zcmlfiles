@@ -8,7 +8,7 @@ from zope.component.testing import PlacelessSetup
 import zope.app.zcmlfiles
 
 
-class TestIncludes(PlacelessSetup,unittest.TestCase):
+class TestIncludes(PlacelessSetup, unittest.TestCase):
 
     def _execute(self, filename='configure.zcml',
                  package=zope.app.zcmlfiles, context=None):
@@ -43,6 +43,7 @@ class TestIncludes(PlacelessSetup,unittest.TestCase):
         context = self._execute(package=dublincore,
                                 context=context)
         self._execute('browser.zcml', context=context)
+
 
 def test_suite():
     return unittest.defaultTestLoader.loadTestsFromName(__name__)
