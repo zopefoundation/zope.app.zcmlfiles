@@ -1,7 +1,7 @@
 Change History
 ==============
 
-4.1.0 (unreleased)
+4.1.0 (2022-08-23)
 ------------------
 
 - Add support for Python 3.7, 3.8, 3.9, 3.10.
