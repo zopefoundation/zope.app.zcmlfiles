@@ -72,6 +72,7 @@ setup(
     extras_require={
         'test': [
             'webtest',
+            'zope.testing',
             'zope.testrunner',
         ],
     },
