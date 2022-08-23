@@ -21,7 +21,8 @@
 
 import os
 
-from setuptools import setup, find_packages
+from setuptools import find_packages
+from setuptools import setup
 
 
 def read(*rnames):
@@ -39,7 +40,7 @@ setup(
     name='zope.app.zcmlfiles',
     version='4.1.0.dev0',
     url='http://github.com/zopefoundation/zope.app.zcmlfiles',
-    author='Zope Corporation and Contributors',
+    author='Zope Foundation and Contributors',
     author_email='zope-dev@zope.org',
     license='ZPL 2.1',
     classifiers=[
@@ -55,6 +56,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Operating System :: OS Independent',

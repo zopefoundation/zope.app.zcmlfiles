@@ -2,8 +2,8 @@
 import unittest
 import warnings
 
-from zope.configuration import xmlconfig
 from zope.component.testing import PlacelessSetup
+from zope.configuration import xmlconfig
 
 import zope.app.zcmlfiles
 
