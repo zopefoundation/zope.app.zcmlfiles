@@ -38,7 +38,7 @@ long_description = (
 
 setup(
     name='zope.app.zcmlfiles',
-    version='4.1.1.dev0',
+    version='5.0.dev0',
     url='http://github.com/zopefoundation/zope.app.zcmlfiles',
     author='Zope Foundation and Contributors',
     author_email='zope-dev@zope.org',
@@ -48,15 +48,12 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Zope Public License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Operating System :: OS Independent',
@@ -71,6 +68,7 @@ setup(
     package_dir={'': 'src'},
     namespace_packages=['zope', 'zope.app'],
     include_package_data=True,
+    python_requires='>=3.7',
     extras_require={
         'test': [
             'webtest',
