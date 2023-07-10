@@ -1,7 +1,7 @@
 Change History
 ==============
 
-5.0 (unreleased)
+5.0 (2023-07-10)
 ----------------
 
 - Add support for Python 3.11.
