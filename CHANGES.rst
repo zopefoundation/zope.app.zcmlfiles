@@ -1,7 +1,7 @@
 Change History
 ==============
 
-5.1 (unreleased)
+6.0 (unreleased)
 ----------------
 
 - Break dependency on ``zope.app.security``.
