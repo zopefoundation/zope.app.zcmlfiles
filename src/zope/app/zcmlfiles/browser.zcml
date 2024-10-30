@@ -15,7 +15,7 @@
 
   <include package="zope.app.exception.browser" />
   <include package="zope.traversing.browser" />
-  <include package="zope.app.security.browser" />
+  <include package="zope.app.localpermission" file="browser.zcml" />
 
   <include package="zope.app.container.browser" />
   <include package="zope.app.form.browser" />

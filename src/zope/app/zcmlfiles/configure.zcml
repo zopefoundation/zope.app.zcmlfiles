@@ -17,7 +17,12 @@
 
   <!-- Ordinary Application (non-view) configuration) -->
   <include package="zope.componentvocabulary" />
-  <include package="zope.app.security" />
+  <include package="zope.security" />
+  <include package="zope.authentication" />
+  <include package="zope.principalregistry" />
+  <include package="zope.app.localpermission" />
+  <include package="zope.security" file="permissions.zcml" />
+
   <include package="zope.component" />
   <include package="zope.annotation" />
   <include package="zope.app.dependable" />

@@ -4,7 +4,7 @@ Change History
 5.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Break dependency on ``zope.app.security``.
 
 
 5.0 (2023-07-10)
