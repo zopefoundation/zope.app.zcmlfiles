@@ -21,7 +21,6 @@
 
 import os
 
-from setuptools import find_packages
 from setuptools import setup
 
 
@@ -64,16 +63,13 @@ setup(
     description='Zope application server ZCML files',
     long_description=long_description,
     keywords="zope setup configuration standard menu",
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
-    namespace_packages=['zope', 'zope.app'],
     include_package_data=True,
     python_requires='>=3.9',
     extras_require={
         'test': [
             'webtest',
             'zope.testing',
-            'zope.testrunner',
+            'zope.testrunner >= 6.4',
         ],
     },
     install_requires=[
