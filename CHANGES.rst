@@ -1,6 +1,12 @@
 Change History
 ==============
 
+6.2 (unreleased)
+----------------
+
+- Nothing changed yet.
+
+
 6.1 (2026-11-26)
 ----------------
 
